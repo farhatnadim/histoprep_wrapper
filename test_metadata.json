@@ -1,0 +1,73 @@
+{
+  "slide_info": {
+    "name": "TCGA-A6-2686-01Z-00-DX1.0540a027-2a0c-46c7-9af0-7b8672631de7",
+    "path": "/home/bandapear/Source/HistoPrep/scripts/TCGA-A6-2686-01Z-00-DX1.0540a027-2a0c-46c7-9af0-7b8672631de7.svs",
+    "suffix": ".svs",
+    "backend_name": "OPENSLIDE",
+    "dimensions": {
+      "width": 125661,
+      "height": 61796
+    },
+    "level_count": 4,
+    "data_bounds": [
+      0,
+      0,
+      125661,
+      61796
+    ]
+  },
+  "processing_params": {
+    "threshold": 188,
+    "multiplier": 1.05,
+    "sigma": 1.0,
+    "clean_mask": false,
+    "min_area": null,
+    "compression": "lzw",
+    "pyramid_mode": false,
+    "mask_level": 3,
+    "processed_levels": [
+      1,
+      2,
+      3
+    ],
+    "timestamp": "2025-05-07T05:43:40.349987"
+  },
+  "levels": {
+    "1": {
+      "dimensions": {
+        "width": 31415,
+        "height": 15449
+      },
+      "downsample_factor": {
+        "height": 4.0,
+        "width": 4.000031831927423
+      },
+      "tissue_percentage": 28.621272972768125,
+      "output_path": "test_level1.png"
+    },
+    "2": {
+      "dimensions": {
+        "width": 7853,
+        "height": 3862
+      },
+      "downsample_factor": {
+        "height": 16.00103573278094,
+        "width": 16.001655418311472
+      },
+      "tissue_percentage": 28.6210833015753,
+      "output_path": "test_level2.png"
+    },
+    "3": {
+      "dimensions": {
+        "width": 3926,
+        "height": 1931
+      },
+      "downsample_factor": {
+        "height": 32.00207146556188,
+        "width": 32.007386653082015
+      },
+      "tissue_percentage": 28.624728370768064,
+      "output_path": "test_level3.png"
+    }
+  }
+}

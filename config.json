@@ -1,0 +1,21 @@
+{
+  "input_dir": "/home/bandapear/data/archive/TestData",
+  "output_dir": "/home/bandapear/data/archive/TestData/extracted_tissue",
+  "output_format": "png",
+  
+  "// Processing parameters": "Below are all the optional parameters for tissue mask processing",
+  "threshold": null,
+  "multiplier": 1.05,
+  "sigma": 1.0,
+  "clean_mask": true,
+  "min_area": 10,
+  "save_mask": true,
+  
+  "// Output parameters": "Choose between individual files or pyramid TIFF",
+  "pyramid": false,
+  "compression": "lzw",
+  
+  "// Level selection": "Specify which pyramid levels to process",
+  "max_level": null,
+  "levels": "1,2,3"
+}
